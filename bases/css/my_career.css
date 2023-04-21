@@ -1,0 +1,737 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* transition: all 3.2s cubic-bezier(0.165, 0.84, 0.44, 1); */
+list-style: none;
+text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+:root{
+    --backkground:rgb(1, 4, 31);
+    --backkground2:rgb(1, 1, 43);
+}
+body{
+    background-color:var(--backkground) ;
+}
+
+.sec-1{
+    width: 100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom: 9%;
+    padding: 7%;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.sec-1 .me{
+    width: 300px;
+    height: 500px;
+    object-fit: contain;
+}
+img{
+    width: 330px;
+}
+.sec-1 .me img{
+  border-top-right-radius: 62px;
+  border-top-left-radius: 62px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+    
+}
+
+
+.child-one-sec-1{
+    display:flex;
+    flex-direction:column;
+    width: fit-content;
+    gap: 12px;
+}
+
+.child-two-sec-1{
+    margin: 12px;
+    display: flex;
+    gap: 9px;
+    align-self: center;
+}
+.child-two-sec-1 .button{
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+}
+.child-two-sec-1 .button:first-child{
+    padding: 12px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color:var(--backkground) ;
+    border-radius:6px;
+    color: white;
+}
+
+.sec-2{
+    width: 100%;
+    height:
+    100%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+
+
+
+
+
+.child-one-sec-2{
+    color: white;
+    margin: 23px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.child-two-sec-2{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 600px);
+    width: 100%;
+    grid-gap: 23px;
+    height: fit-content;
+    justify-content:center;
+    align-items: center;
+}
+.child-two-sec-2 .main-sec-2-con{
+width: 100%;
+}
+.main-sec-2-con img{
+    height: 430px;
+    border-radius: 32px;
+    object-fit: cover;
+}
+.main-sec-2-con:first-child{
+    position: relative;
+}
+.mdx-one{
+    position: absolute;
+    transform: rotate(-20deg);
+    left: 0;
+    top: 0;
+}
+
+.mdx-two{
+    transform: rotate(-50deg);
+    background-color: var(--backkground);
+
+}
+
+.mdx2{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+.mdx2 .big{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.mdx2 .big div{
+padding: 34px;
+width: 100%;
+margin: 12px;
+border: 1px solid rgba(255, 255, 255, 0.027);
+align-self: center;
+justify-self: center;
+color: white;
+text-align: center;
+background-color: var(--backkground2);
+}
+.btn{
+    padding: 12px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color:var(--backkground) ;
+    border-radius:6px;
+    color: white;
+    width: 90px;
+    display: flex;
+    background-color: white;
+    color: #000;
+    margin: 12px;
+}
+.mdx2 p{
+    color: white;
+    display: flex;
+    text-align: left;
+    margin: 12px;
+}
+
+
+/*  sec-3*/
+t{
+    text-transform: capitalize;
+}
+.sec-3{
+    width:100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.main-top-sec-3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+
+
+.mainmxs-sec3-one{
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.main-sec-3-conxx{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--backkground2);
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.021);
+    border-radius: 23px;
+
+
+
+}
+
+.nav{
+    position: fixed;
+    bottom: 70px;
+    width: 100%;
+    /* right: 40%; */
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color: var(--backkground2); */
+    height: 90px;
+    
+}
+.nav ul{
+    display: flex;
+     gap: 23px;
+     background-color: rgba(16, 53, 153, 0.233);
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50px;
+     padding: 23px;
+    filter: blur(0px);
+
+}
+.main-ul{
+    filter: blur(9px);
+    background-color: white;
+}
+.main-sec-3-conxx h4{
+    margin: 23px;
+    text-transform: capitalize;
+}
+.main-sec-3-con{
+display:grid;
+width: 100%;
+grid-template-columns: auto auto;
+grid-gap: 12px;
+    align-items: center;
+justify-content: space-evenly;
+}
+.bi-star-fill,
+.bi-star-half
+{
+    color: yellow;
+}
+.main-sec-3-con span{
+display: flex;
+flex-direction: column;
+gap: 2px;
+align-items: flex-start;
+width: 100%;
+text-align: left;
+}
+.main-sec-3-con span b{
+
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+
+/* sec-4 */
+
+
+h4{
+  text-transform: capitalize;
+
+}
+.sec-4{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-transform: capitalize;
+    margin-top: 4%;
+}
+.sec-4 main div big h3{
+margin: 23px auto;
+color: black;
+}
+.sec-4 main div big{
+background-color: white;
+width: 90%;
+display: flex;
+height:60px;
+border-bottom-left-radius: 23px;
+align-content: center;
+justify-content: center;
+text-align: center;
+border-bottom-right-radius: 23px;
+}
+.main-ui{
+
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.089);
+justify-content: center;
+background-color: var(--backkground2);
+border-radius: 12px;
+}
+.sec-4 main{
+flex-wrap: wrap;
+display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  color: aliceblue;
+}
+
+.main-ui div span{
+display: flex;
+width: 100%;
+gap: 12px;
+}
+.main-ui div{
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+padding: 23px 23px;
+
+    gap: 12px;
+}
+
+
+/* sec-5 */
+
+
+.sec-5{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.sec-5-header{
+    color: white;
+    margin: 23px;
+    text-transform: capitalize;
+}
+.main-sec-5 img{
+ height: 120px;
+ width: 200px;
+ border-radius: 23px;
+}
+.main-sec-5 div small button:first-child{
+ background-color: white;
+ color: #000;
+ border: none;
+ border-radius: 4px;
+
+}
+.main-sec-5 div small button:last-child{
+ background-color: rgba(255, 255, 255, 0);
+ color: rgb(255, 255, 255);
+ border: 1px solid white;
+
+}
+.main-sec-5 div small button{
+padding: 8px;
+cursor: pointer;
+width: fit-content;
+background-color: var(--backkground);
+color: white;
+}
+.main-sec-5 div small{
+width: 100%;
+display: flex;
+padding: 12px;
+gap: 12px;
+
+}
+.main-sec-5 div{
+width: 240px;
+border: 1px solid rgba(255, 255, 255, 0.13);
+padding: 12px;
+background-color: var(--backkground2);
+color: white;
+}
+.main-sec-5{
+    width: 70%;
+    display:flex;
+     justify-content: center;
+     align-content: center;
+     flex-wrap: wrap;
+     align-self: center;
+     gap: 23px;
+}
+@media screen and  (max-width: 619px ) {
+    .child-two-sec-2 .main-sec-2-con{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+
+    .mdx2 .big{
+        display: flex;
+        gap: 12px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+    .mdx2{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .mdx2 p{
+        width: 70%;
+    }
+    .mdx2 .big div{
+    padding: 34px;
+    width: 70%;
+        background-color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.027);
+    align-self: center;
+    justify-self: center;
+    color: white;
+    text-align: center;
+    background-color: var(--backkground2);
+    }
+    .btn{
+        padding: 12px;
+        font-weight: bold;
+        border: 2px solid white;
+        background-color:var(--backkground) ;
+        border-radius:6px;
+        color: white;
+        width: 90px;
+        display: flex;
+        background-color: white;
+        color: #000;
+        margin: 12px;
+    }
+    .sec-1{
+        width: 100%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        margin-bottom: 9%;
+        justify-content: center;
+        padding: 7%;
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+    }
+    .sec-1 .me{
+        width: 300px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .sec-2{
+        width: 100%;
+        height:auto;
+        display: flex;
+        /* align-items: center; */
+        flex-direction:column;
+        /* justify-content:center; */
+        /* text-align: center; */
+        align-self: center;margin: 0;
+    }
+    .child-two-sec-2{
+        display:grid;
+        grid-template-columns: repeat(auto-fill, 600px);
+        width: 100%;
+        /* grid-gap: 23px; */
+        height: fit-content;
+        justify-content:center;
+        /* background-color: azure; */
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+        justify-self: center;
+        overflow: hidden;
+    }
+    .sxa img{
+       width:42%;
+    }
+ 
+    .sxa{
+        width: 100%;
+    }
+    .nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        /* right: 40%; */
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        /* background-color: var(--backkground2); */
+        height: 90px;
+        background-color: rgba(255, 255, 255, 0.158);
+        
+    }
+    .nav ul{
+        display: flex;
+         gap: 23px;
+         background-color: rgba(16, 53, 153, 0.233);
+         align-content: center;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50px;
+         padding: 23px;
+        filter: blur(0px);
+    
+    }
+    .main-ul{
+        filter: blur(9px);
+        background-color: white;
+    }
+    .footer{
+        width: 100%;
+        height: 
+        auto;
+        display:flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.123);
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: var(--backkground);
+        margin-top: 12px;
+        margin-bottom: 23%;
+        overflow: hidden;
+        margin-bottom: 20%;
+    }
+    .footer h3{
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-family: none;
+    }
+    .footer ul{
+        display: flex;
+        gap: 12px;
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        text-align: center;
+        margin: 23px;
+        flex-wrap: wrap;
+    }
+    a{
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+
+.sec-6{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+}
+.bi-facebook{
+    color: rgb(31, 31, 221);
+}
+.bi-whatsapp{
+    color: rgb(5, 35, 204);
+}
+.bi-messenger{
+    color: rgb(17, 17, 192);
+}
+.main-con-1 div b{
+
+font-size: x-small;
+color: rgba(255, 255, 255, 0.356);
+}
+.main-con-1 div h3{
+
+font-size:small;
+color: rgb(255, 255, 255);
+}
+.main-con-1 div{
+width: 70%;
+padding: 13px;
+display: flex;
+text-transform: capitalize;
+flex-direction: column;
+background-color: var(--backkground2);
+border: 1px solid rgba(255, 255, 255, 0.151);
+border-radius: 23px;
+color: white;
+
+}
+.main-con-1 {
+ width: 100%;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+.sec-6 main{
+    width: 80%;
+    align-self: center;
+    gap: 12px;
+flex-wrap: wrap;
+display:flex;
+justify-content: center;
+}
+
+
+.sdf2{
+    width: 100%;
+    align-items: flex-start;
+}
+.sdf2 form input{ 
+width: 100%;
+border: none;
+ padding: 12px;
+ border-radius: 4px;
+ color: white;
+ background-color: var(--backkground2);
+}
+.sdf2 form input::placeholder{ 
+color: white;
+}
+.sdf2 form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 23px;
+
+}
+.sdf2 form big button{
+ border: none;
+ border-radius: 3px;
+ font-weight: bolder;
+padding: 12px;
+color: rgb(36, 35, 33);
+text-transform: capitalize;
+}
+.name,
+.email{
+    width: 100%;
+    background-color: var(--backkground2);
+
+    height: 40px;
+}
+.message{
+    width: 100%;
+    background-color: var(--backkground2);
+
+    height: 70px;
+}
+
+.footer{
+    width: 100%;
+    height: 
+    auto;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.123);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--backkground);
+    margin-top: 12px;
+}
+.footer h3{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: none;
+}
+.footer ul{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin: 23px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+/*  */
+
